@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;600&family=Public+Sans:wght@300;400&family=Space+Grotesk:wght@400;700&display=swap');
+* {
+    margin: 0px 0px;
+}
+
+body {
+    color: white;
+    background-color: #2d2828;
+}
+
+.container {
+    margin: 10% 20%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8em 8em;
+}
+
+.content img {
+    width: 8em;
+    height: 8em;
+    border-radius: 90%;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin: 1em 0px;
+}
+
+.content p {
+    font-size: 1em;
+    text-align: center;
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+i {
+    font-size: 2em;
+    margin: 0px .5em;
+    color: white;
+}
+
+
+/*rgb(205, 181, 181*/
